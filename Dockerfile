@@ -1,5 +1,7 @@
 # Use Node.js 0.10 official image
 FROM node:0.10
+#blah
+RUN npm install -g npm@1.2.14
 
 # Set working directory
 WORKDIR /app
